@@ -1,7 +1,5 @@
 module github.com/genesis-community/vault-genesis-kit/spec
 
-replace github.com/genesis-community/testkit => ../../testkit
-
 go 1.22
 
 require (
