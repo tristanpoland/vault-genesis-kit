@@ -9,5 +9,5 @@ import (
 
 func TestSpec(t *testing.T) {
 	RegisterFailHandler(Fail)
-	RunSpecs(t, "Spec Suite")
+	RunSpecs(t, "Vault Genesis Kit Spec Suite")
 }
