@@ -1,6 +1,7 @@
 exodus:
   bosh: base
   domain: vault.bosh
+  features: ""
   ips:
   - 10.99.0.16
   - 10.99.0.17
