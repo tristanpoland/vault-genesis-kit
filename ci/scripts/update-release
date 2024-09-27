@@ -29,6 +29,17 @@ release_name=$RELEASE_NAME
 release_version="$( cat version )"
 url="$( cat url )"
 
+if [[ "$url" =~ https://bosh.io/d/github.com/([^/]*)/([^/\?]*)\?v=(.*) ]] ; then 
+	org="${BASH_REMATCH[1]}/"
+	repo="${BASH_REMATCH[2]}"
+elif [[ "$url" =~ https://github.com/([^/]*)/([^/]*)/releases ]] ; then
+	org="${BASH_REMATCH[1]}/"
+	repo="${BASH_REMATCH[2]}"
+else
+	org=''
+	repo="$release_name"
+fi
+
 if [[ -f sha1 ]] ; then # bosh-io-release
   sha1=$( cat sha1 )
 else # github-release (maybe others?)
