@@ -96,4 +96,5 @@ groups:
   - major
   - minor
   - patch
-  
+  - spec-tests  # Added
+  - deploy  # Added

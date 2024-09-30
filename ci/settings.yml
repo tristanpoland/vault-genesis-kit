@@ -3,7 +3,7 @@ meta:
   kit:             vault
   release:         Vault Genesis Kit
   target:          pipes/genesis
-  url:             https://pipes.scalecf.net
+  url:             http://localhost:60056
   iaas:            vsphere
   exposed:         false
   version_file:    version
