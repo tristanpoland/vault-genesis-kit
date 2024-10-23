@@ -1,3 +1,9 @@
+################################################
+#                 build-kit.yml                #
+#  Build the genesis kit, if it passes we can  #
+#  proceed down the rest of the pipeline.      #
+################################################
+
 jobs:
 - name: build-kit
   public: true

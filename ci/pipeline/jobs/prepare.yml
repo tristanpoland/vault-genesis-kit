@@ -1,3 +1,10 @@
+######################################
+#            prepare.yml             #
+#  This job generates the release    #
+#  notes for this version of the     #
+#  genesis kit.                      #
+######################################
+
 jobs:
 - name: prepare
   public: true

@@ -1,3 +1,9 @@
+################################################
+#                  deploy.yml                  #
+#  Creates a mock deploy of the kit to check   #
+#  if it actually works as expected with BOSH  #
+################################################
+
 jobs:
 - name: deploy
   public: true

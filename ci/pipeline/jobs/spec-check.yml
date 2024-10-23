@@ -1,3 +1,11 @@
+##############################################
+#               spec-check.yml               #
+#  The spec check job's goal is to identify  #
+#  and generates a summery of breaking       #
+#  changes to the kit, these are included by #
+#  the propare.yml job in the release notes  #
+##############################################
+
 jobs:
 - name: spec-check
   public: true

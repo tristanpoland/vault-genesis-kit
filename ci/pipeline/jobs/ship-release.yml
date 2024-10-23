@@ -1,3 +1,10 @@
+####################################################
+#                 ship-release.yml                 #
+#  This job uploads the required artifacts to      #
+#  GitHub releases along with the release notes    #
+#  from the prepare.yml job.                       #
+####################################################
+
 jobs:
 - name: ship-release
   public: true

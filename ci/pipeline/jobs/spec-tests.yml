@@ -1,3 +1,10 @@
+#####################################################
+#                spec-tests.yml                     #
+#  The spec tests job is designed to run automated  #
+#  tests against the kit to validate the built kit  #
+#  from the build-kit job.                          #
+#####################################################
+
 jobs:
 - name: spec-tests
   public: true
